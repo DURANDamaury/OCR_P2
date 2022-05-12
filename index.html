@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Booki</title>
+    <!-- Pour l'instant je ne m'occupe que de la version desktop -->
+    <link rel="stylesheet" href="./css/desktop.css" >
+    <!-- Chargement de la fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Chargement de font awesome -->
+    <script src="https://kit.fontawesome.com/eb2bfafabd.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <header>
+        <nav>
+            <img src="/images/logo/Booki.png" alt="logo booki" id="logo"> 
+            <ul id="MENU">
+                <li class="CHOIX"><a href="#HEBERGEMENTS">Hébergements</a></li>
+                <li class="CHOIX"><a href="#ACTIVITES">Activités</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <main>
+          <!-- ****************************************************************************************** -->
+          <!-- *************************************** RECHERCHE **************************************** -->
+          <!-- ****************************************************************************************** -->
+          <section id="RECHERCHE">
+              <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+              <p>En plein centre ville ou en pleine nature</p>
+              <div id="FORMULAIRE">
+                <div id="FORMULAIRE_IMG"><i class="fa-solid fa-location-dot"></i></div>
+                <form>
+                    <input type="text" class="text" />
+                    <input type="submit" value="Rechercher" class="submit" />
+                </form>
+              </div>
+
+              <!-- *** FILTRES -->
+              <div id="FILTRE">
+                <p>Filtres</p>
+                <div class="FILTRE_BOUTON">
+                    <div class="FILTRE_IMG"><i class="fa-solid fa-money-bill-wave"></i></div>
+                    <div class="FILTRE_TXT">Économique</div>
+                </div>
+                <div class="FILTRE_BOUTON">
+                    <div class="FILTRE_IMG"><i class="fa-solid fa-child-reaching"></i></div>
+                    <div class="FILTRE_TXT">Familial</div>
+                </div>
+                <div class="FILTRE_BOUTON">
+                    <div class="FILTRE_IMG"><i class="fa-solid fa-heart"></i></div>
+                    <div class="FILTRE_TXT">Romantique</div>
+                </div>
+                <div class="FILTRE_BOUTON">
+                    <div class="FILTRE_IMG"><i class="fa-solid fa-dog"></i></div>
+                    <div class="FILTRE_TXT">Animaux autorisés</div>
+                </div>
+              </div>
+
+              <!-- *** INFOS -->
+              <div id="INFOS">
+                  <div id="INFOS_IMG"><i class="fa-solid fa-info"></i></div>
+                  <div id="INFOS_TXT">Plus de 500 logements sont disponibles dans cette ville.</div>
+              </div>
+
+          </section>
+          <!-- ****************************************************************************************** -->
+          <!-- *************************************** LOGEMENTS **************************************** -->
+          <!-- ****************************************************************************************** -->          
+          <section id="HEBERGEMENTS">
+                <div id="RESULTATS">
+                    <h2>Hébergements à Marseille</h2>
+                    <div id="LISTE">
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Auberge de la Cannebière</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 25€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Hôtel du port</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 52€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Hôtel des mouettes</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 76€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Hôtel de la mer</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 46€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Auberge Le Panier</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 23€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="VIGNETTE">
+                            <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Photo" ></div>
+                            <div class="VIGNETTE_TXT">
+                                <div class="VIGNETTE_NOM">Hôtel chez Amina</div>
+                                <div class="VIGNETTE_TARIF">Nuit à partir de 96€</div>
+                                <div class="VIGNETTE_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div id="PLUS">Afficher plus</div>
+                </div>
+                <div id="POPULARITE">
+                    <div id="POP_TITRE">
+                        <h2>Les plus populaires</h2>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div id="POP_LISTE">
+                        <div class="VIGNETTE_POP">
+                            <div class="VIGNETTE_POP_IMG"><img src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Photo"></div>
+                            <div class="VIGNETTE_POP_INFOS">
+                                <div class="VIGNETTE_POP_TXT">
+                                    <div class="VIGNETTE_POP_NOM">Hôtel Le soleil du matin</div>
+                                    <div class="VIGNETTE_POP_TARIF">Nuit à partir de 128€</div>
+                                </div>
+                                <div class="VIGNETTE_POP_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="VIGNETTE_POP">
+                            <div class="VIGNETTE_POP_IMG"><img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Photo"></div>
+                            <div class="VIGNETTE_POP_INFOS">
+                                <div class="VIGNETTE_POP_TXT">
+                                    <div class="VIGNETTE_POP_NOM">Au coeur de l'eau Chambre d'hôtes</div>
+                                    <div class="VIGNETTE_POP_TARIF">Nuit à partir de 71€</div>
+                                </div>
+                                <div class="VIGNETTE_POP_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="VIGNETTE_POP">
+                            <div class="VIGNETTE_POP_IMG"><img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo"></div>
+                            <div class="VIGNETTE_POP_INFOS">
+                                <div class="VIGNETTE_POP_TXT">
+                                    <div class="VIGNETTE_POP_NOM">Hôtel Tout bleu et Blanc</div>
+                                    <div class="VIGNETTE_POP_TARIF">Nuit à partir de 68€</div>
+                                </div>
+                                <div class="VIGNETTE_POP_NOTE">
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star BLEU"></i>
+                                    <i class="fa-solid fa-star GRIS"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+          </section>
+          <!-- ****************************************************************************************** -->
+          <!-- *************************************** ACTIVITES **************************************** -->
+          <!-- ****************************************************************************************** -->
+          <section id="ACTIVITES">
+                <h3>Activités à Marseille</h3>
+          </section>
+      </main>
+<!-- ****************************************************************************************** -->
+<!-- *************************************** FOOTER ******************************************* -->
+<!-- ****************************************************************************************** -->
+      <footer>
+          <div id="A_PROPOS">
+            <h4>A propos</h4>
+            <ul>
+                <li>Fonctionnement du site</li>
+                <li>Conditions générales de vente</li>
+                <li>Données et confidentialité</li>
+            </ul>
+          </div>
+
+          <div id="NOS_HEBERGEMENTS">
+            <h4>Nos hébérgements</h4>
+            <ul>
+                <li>Charte qualité</li>
+                <li>Soumettre votre hôtel</li>
+            </ul>
+          </div>
+
+          <div id="ASSISTANCE">
+            <h4>Assistance</h4>
+            <ul>
+                <li>Centre d'aide</li>
+                <li>Nous contacter</li>
+            </ul>
+          </div>
+      </footer>
+  </body>
+</html>

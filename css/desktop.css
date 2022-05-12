@@ -1,0 +1,313 @@
+body
+    {
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        width: 75%; /*1390px */
+    }
+/* ----------------------------------------------------------------- */    
+/* --------------------------- HEADER ------------------------------ */
+/* ----------------------------------------------------------------- */
+header
+    {
+        padding: 0 3% 0 3%; /*50px */
+    }
+
+nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+
+    }
+
+nav img
+    {
+        height: 50px;
+    }
+
+nav ul
+    {
+        display: flex;
+        list-style: none;
+    }
+
+nav a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+#MENU li a
+    {
+        margin: 0 10px 0 20px;
+        display: block;
+        padding-top: 20px;
+        box-shadow: inset 0 2px transparent;
+    }
+
+#MENU li a:hover
+    {
+        box-shadow: inset 0 2px #0065FC;
+        color: #0065FC;
+    }
+
+/* ----------------------------------------------------------------- */    
+/* ---------------------------  MAIN  ------------------------------ */
+/* ----------------------------------------------------------------- */
+h2
+    {
+        margin-block-start: 0;
+    }
+/* ************************** RECHERCHE **************************** */
+/* ***************************************************************** */
+#RECHERCHE
+    {
+        padding: 0 3% 0 3%;
+    }
+
+#FORMULAIRE
+    {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+#FORMULAIRE_IMG
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #F2F2F2;
+        border-left: 2px solid #F2F2F2;
+        border-radius: 20% 0 0 20%;
+    }
+
+
+
+.text
+    {
+        height: 46px;
+        border:none;
+        border-top: solid 1px #F2F2F2;
+        border-bottom: solid 1px #F2F2F2;
+        font-weight: bold;
+        font-size: 100%;
+        padding-left: 20px;
+    }
+.submit
+    {
+        background-color: #0065FC;
+        height: 50px;
+        border: none;
+        border-right: 2px solid #0065FC;
+        border-radius: 0 15px 15px 0;
+        color: white;
+        font-size: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+/* *** Filtres *** */
+#FILTRE
+    {
+        display: flex;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+
+.FILTRE_BOUTON
+    {
+        display: flex;
+        margin-left: 25px;
+        box-shadow: 2px 2px 0 #F2F2F2 inset ,  -2px -2px 0 #F2F2F2 inset;
+        border-radius: 25px;
+    }
+
+.FILTRE_IMG
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-color: #DEEBFF;
+        border-radius: 25px;
+        color: #0065FC;
+    }
+
+.FILTRE_TXT
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 46px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+/* *** INFOS *** */
+#INFOS
+    {
+        display: flex;
+        margin-bottom: 25px;
+    }
+
+#INFOS_IMG
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0065FC;
+        height: 25px;
+        width: 25px;
+        border: 1px solid #F2F2F2;
+        border-radius: 25px;
+    }
+
+#INFOS_TXT
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+/* ************************** HEBERGEMENTS **************************** */
+/* ***************************************************************** */
+#HEBERGEMENTS
+    {
+        padding: 0 3% 0 3%;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    #RESULTATS
+        {
+            background-color: #F2F2F2;
+            margin-right: 50px;
+            padding: 3%;
+            border-radius: 25px;
+        }
+        /* *** LISTE *** */
+        #LISTE
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+        
+            .VIGNETTE
+                {
+                    width: 236px;
+                    height: 190px;
+                    background-color: white;
+                    border: 5px solid white;
+                    border-radius: 25px;
+                    margin-bottom: 30px;
+                }
+
+            .VIGNETTE_TXT
+                {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            
+            .VIGNETTE_IMG img
+                {
+                    
+                    width: 236px;
+                    height: 114px;
+                    object-fit: cover;
+                    border-radius: 25px 25px 0 0;
+                    
+                }
+
+            .BLEU
+                {
+                    color: #0065FC;
+                }
+
+            .GRIS
+                {
+                    color: #24242441;
+                }
+            
+    /* *** POPULARITÉ *** */
+    #POPULARITE
+        {
+            background-color: #F2F2F2;
+            padding: 3%;
+        }
+    #POP_TITRE
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    #POP_LISTE
+        {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #0065FC;
+        }
+        .VIGNETTE_POP
+            {
+                width: 333px;
+                border: 5px solid white;
+                display: flex;
+                border-radius: 25px;
+                background-color: white;
+            }
+        .VIGNETTE_POP img
+            {
+                width: 128px;
+                height: 133px;
+                object-fit: cover;
+                border-radius: 25px 0 0 25px;
+            }
+        .VIGNETTE_POP_INFOS
+            {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            
+/* ************************** ACTIVITES **************************** */
+/* ***************************************************************** */
+#ACTIVITES
+    {
+        padding: 0 2% 0 2%;
+    }
+
+/* ----------------------------------------------------------------- */    
+/* --------------------------- FOOTER ------------------------------ */
+/* ----------------------------------------------------------------- */
+footer
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: left;
+        background-color: #F2F2F2;
+    }
+
+footer ul
+    {
+        padding: 0;
+        margin-left: 0;
+    }
+
+footer li
+    {
+        list-style: none;
+    }
