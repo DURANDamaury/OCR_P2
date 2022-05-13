@@ -23,30 +23,41 @@ nav
 
 nav img
     {
-        height: 50px;
+        height: 45px;
     }
 
-nav ul
+#MENU
     {
         display: flex;
         list-style: none;
+        align-items: end;
     }
 
-nav a
+.CHOIX
     {
-        text-decoration: none;
-        color: black;
-    }
-
-#MENU li a
-    {
-        margin: 0 10px 0 20px;
-        display: block;
-        padding-top: 20px;
+        padding-top: 0;
         box-shadow: inset 0 2px transparent;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
     }
 
-#MENU li a:hover
+.CHOIX :hover
+    {
+        box-shadow: inset 0 2px #0065FC;        
+    }
+
+#MENU a
+    {
+        /* display: block; */
+        color: black;
+        margin: 0 10px 0 20px;
+        text-decoration: none;
+
+    }
+
+#MENU a:hover
     {
         box-shadow: inset 0 2px #0065FC;
         color: #0065FC;
@@ -117,6 +128,7 @@ h2
         display: flex;
         font-weight: bolder;
         margin-bottom: 25px;
+        flex-wrap: wrap;
     }
 
 .FILTRE_BOUTON
@@ -383,6 +395,13 @@ h2
     {
         height: 50px;
         border-radius: 0 0 25px 25px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-weight: bolder;
+
     }
 /* ----------------------------------------------------------------- */    
 /* --------------------------- FOOTER ------------------------------ */
