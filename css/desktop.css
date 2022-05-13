@@ -194,6 +194,14 @@ h2
             padding: 3%;
             border-radius: 25px;
         }
+
+        #RESULTATS_TXT
+            {
+                height: 50px;
+                display: flex;
+                align-items: start;
+            }
+
         /* *** LISTE *** */
         #LISTE
             {
@@ -252,6 +260,24 @@ h2
             align-items: center;
         }
 
+    #POP_TITRE_TXT
+        {
+            height: 50px;
+            display: flex;
+            align-items: start;
+
+        }
+
+
+    #POP_STAR
+        {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+        }
+
     #POP_LISTE
         {
             gap: 20px;
@@ -287,18 +313,92 @@ h2
 /* ***************************************************************** */
 #ACTIVITES
     {
-        padding: 0 2% 0 2%;
+        padding: 3%;
     }
 
+#ACTIVITES_LISTE
+    {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+.VIGNETTES_ACT
+    {
+        width: 23%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+.VIGNETTE_ACT_HIGH
+    {
+        width: 23%;
+        box-shadow: 2px 3px 15px grey;
+        border-radius: 25px 25px 25px 25px;
+    }
+
+.VIGNETTE_ACT_HIGH_IMG img
+    {
+        width: 100%;
+        height: 390px;
+        object-fit: none;
+        border-radius: 25px 25px 0 0;
+    }
+
+.VIGNETTE_ACT_LOW
+    {
+        border-radius: 25px 25px 25px 25px;
+        box-shadow: 2px 3px 15px grey;
+    }
+
+.VIGNETTE_ACT_LOW_IMG img
+    {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px 25px 0 0;
+    }
+
+.ACT1 img
+    {
+        height: 180px;
+    }
+
+.ACT2 img
+    {
+        height: 106px;
+    }
+
+.ACT3 img
+    {
+        height: 140px;
+    }
+
+.ACT4 img
+    {
+        height: 150px;
+    }
+
+.VIGNETTE_ACT_TXT
+    {
+        height: 50px;
+        border-radius: 0 0 25px 25px;
+    }
 /* ----------------------------------------------------------------- */    
 /* --------------------------- FOOTER ------------------------------ */
 /* ----------------------------------------------------------------- */
 footer
     {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: left;
         background-color: #F2F2F2;
+        padding: 50px;
+    }
+
+.DIV_FOOTER
+    {
+        width: 33%;
     }
 
 footer ul
@@ -307,7 +407,14 @@ footer ul
         margin-left: 0;
     }
 
+footer h4
+    {
+        margin-block-start: 0px;
+        font-weight: bold;
+    }
+
 footer li
     {
         list-style: none;
+        line-height: 200%;
     }

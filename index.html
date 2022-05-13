@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Booki</title>
     <!-- Pour l'instant je ne m'occupe que de la version desktop -->
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/desktop.css" >
     <!-- Chargement de la fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -71,7 +72,7 @@
           <!-- ****************************************************************************************** -->          
           <section id="HEBERGEMENTS">
                 <div id="RESULTATS">
-                    <h2>Hébergements à Marseille</h2>
+                    <div id="RESULTATS_TXT"><h2>Hébergements à Marseille</h2></div>
                     <div id="LISTE">
                         <div class="VIGNETTE">
                             <div class="VIGNETTE_IMG"><img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo" ></div>
@@ -162,8 +163,8 @@
                 </div>
                 <div id="POPULARITE">
                     <div id="POP_TITRE">
-                        <h2>Les plus populaires</h2>
-                        <i class="fa-solid fa-star"></i>
+                        <div id="POP_TITRE_TXT"><h2>Les plus populaires</h2></div>
+                        <div id="POP_STAR"><i class="fa-solid fa-star"></i></div>                  
                     </div>
                     <div id="POP_LISTE">
                         <div class="VIGNETTE_POP">
@@ -224,14 +225,44 @@
           <!-- *************************************** ACTIVITES **************************************** -->
           <!-- ****************************************************************************************** -->
           <section id="ACTIVITES">
-                <h3>Activités à Marseille</h3>
+                <div id="ACTIVITES_TXT"><h3>Activités à Marseille</h3></div>
+                <div id="ACTIVITES_LISTE">
+                    <div class="VIGNETTE_ACT_HIGH">
+                            <div class="VIGNETTE_ACT_HIGH_IMG"><img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo port"></div>
+                            <div class="VIGNETTE_ACT_TXT">Vieux Port</div>
+                    </div>
+                    <div class="VIGNETTES_ACT">
+                        <div class="VIGNETTE_ACT_LOW">
+                            <div class="VIGNETTE_ACT_LOW_IMG ACT1"><img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo fort"></div>
+                            <div class="VIGNETTE_ACT_TXT">Fort de Pomègues</div>
+                        </div>
+                        <div class="VIGNETTE_ACT_LOW">
+                            <div class="VIGNETTE_ACT_LOW_IMG ACT2"><img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo île"></div>
+                            <div class="VIGNETTE_ACT_TXT">Île du Frioul</div>
+                        </div>
+                    </div>
+                    <div class="VIGNETTE_ACT_HIGH">
+                            <div class="VIGNETTE_ACT_HIGH_IMG"><img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Photo calanques"></div>
+                            <div class="VIGNETTE_ACT_TXT">Parc National des Calanques</div>
+                    </div>
+                    <div class="VIGNETTES_ACT">
+                        <div class="VIGNETTE_ACT_LOW">
+                            <div class="VIGNETTE_ACT_LOW_IMG ACT3"><img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo ND Garde"></div>
+                            <div class="VIGNETTE_ACT_TXT">Notre-Dame-de-la-Garde</div>
+                        </div>
+                        <div class="VIGNETTE_ACT_LOW">
+                            <div class="VIGNETTE_ACT_LOW_IMG ACT4"><img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo Longchamp"></div>
+                            <div class="VIGNETTE_ACT_TXT">Parc Longchamp</div>
+                        </div>
+                    </div>
+                </div>
           </section>
       </main>
 <!-- ****************************************************************************************** -->
 <!-- *************************************** FOOTER ******************************************* -->
 <!-- ****************************************************************************************** -->
       <footer>
-          <div id="A_PROPOS">
+          <div id="A_PROPOS" class="DIV_FOOTER">
             <h4>A propos</h4>
             <ul>
                 <li>Fonctionnement du site</li>
@@ -240,7 +271,7 @@
             </ul>
           </div>
 
-          <div id="NOS_HEBERGEMENTS">
+          <div id="NOS_HEBERGEMENTS" class="DIV_FOOTER">
             <h4>Nos hébérgements</h4>
             <ul>
                 <li>Charte qualité</li>
@@ -248,7 +279,7 @@
             </ul>
           </div>
 
-          <div id="ASSISTANCE">
+          <div id="ASSISTANCE" class="DIV_FOOTER">
             <h4>Assistance</h4>
             <ul>
                 <li>Centre d'aide</li>
