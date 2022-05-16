@@ -134,10 +134,11 @@ h2
 #FILTRE
     {
         display: flex;
-        font-weight: bolder;
+        font-weight: 700;
         margin-bottom: 25px;
         flex-wrap: wrap;
-        font-size: 15px;
+        font-size: 18px;
+        line-height: 0.15;
     }
 
 .FILTRE_TITRE
@@ -201,6 +202,7 @@ h2
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 16px;
     }
 
 
@@ -212,6 +214,7 @@ h2
         padding: 0 3% 0 3%;
         display:flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     #RESULTATS
@@ -220,6 +223,8 @@ h2
             margin-right: 50px;
             padding: 3%;
             border-radius: 25px;
+            max-width: 58%;
+            min-width: 245px;
         }
 
         #RESULTATS_TXT
@@ -239,6 +244,9 @@ h2
         
             .VIGNETTE
                 {
+                    display: block;
+                    text-decoration: none;
+                    color: black;
                     width: 236px;
                     height: 190px;
                     background-color: white;
@@ -252,6 +260,7 @@ h2
                 {
                     margin-left: 10px;
                     margin-right: 10px;
+                    line-height: 23px;
                 }
             
             .VIGNETTE_IMG img
@@ -274,11 +283,15 @@ h2
                     color: #24242441;
                 }
  
-              .VIGNETTE_NOM
+            .VIGNETTE_NOM
                 {
                     font-weight: 700;
                 }  
-            
+            .VIGNETTE_NOTE
+                {
+                    font-size: 12px;
+                }
+                
     /* *** POPULARITÉ *** */
     #POPULARITE
         {
@@ -321,6 +334,9 @@ h2
         }
         .VIGNETTE_POP
             {
+                display: block;
+                text-decoration: none;
+                color: black;
                 width: 333px;
                 border: 5px solid white;
                 display: flex;
@@ -350,6 +366,10 @@ h2
             {
                 font-weight: 700;
             }
+        .VIGNETTE_POP_NOTE
+            {
+                font-size: 11px;
+            }
 
             
 /* ************************** ACTIVITES **************************** */
@@ -363,6 +383,7 @@ h2
     {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
     }
 
@@ -379,6 +400,7 @@ h2
         width: 23%;
         box-shadow: 2px 3px 15px grey;
         border-radius: 25px 25px 25px 25px;
+        min-width: 23%;
     }
 
 .VIGNETTE_ACT_HIGH_IMG img
@@ -393,6 +415,7 @@ h2
     {
         border-radius: 25px 25px 25px 25px;
         box-shadow: 2px 3px 15px grey;
+        min-width: 23%;
     }
 
 .VIGNETTE_ACT_LOW_IMG img
