@@ -1,11 +1,10 @@
-@media screen and (min-width: 992px)
+@media screen and (min-width: 768px) and (max-width: 992px)
 {
-
 body
     {
         font-family: 'Raleway', sans-serif;
         margin: 0;
-        width: 75%; /*1390px */
+        width: 100%; /* 768/992 */
     }
 /* ----------------------------------------------------------------- */    
 /* --------------------------- HEADER ------------------------------ */
@@ -223,6 +222,7 @@ h2
         display:flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     #RESULTATS
@@ -500,4 +500,5 @@ footer li
         line-height: 200%;
     }
 
+    
 }
