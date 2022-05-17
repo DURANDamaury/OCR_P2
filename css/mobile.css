@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 {
     body
     {
@@ -48,7 +48,7 @@ nav img
 
 .CHOIX :hover
     {
-        box-shadow: inset 0 2px #0065FC;        
+        box-shadow: inset 0 -2px #0065FC;        
     }
 
 #MENU a
