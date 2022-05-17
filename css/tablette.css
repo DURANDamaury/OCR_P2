@@ -12,18 +12,13 @@ body
 header
     {
         padding: 0 3% 0 3%; /*50px */
-    }
-
-nav
-    {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 0;
-
     }
 
-nav img
+header img
     {
         height: 45px;
     }
@@ -141,21 +136,36 @@ h2
         flex-wrap: wrap;
         font-size: 18px;
         line-height: 0.15;
+        background-color: #F2F2F2;
+        padding: 3%;
+        border-radius: 25px;
+        justify-content: space-around;
+        gap: 20px;
     }
 
 .FILTRE_TITRE
     {
         padding-top: auto;
         padding-bottom: auto;
+        width: 100%;
+        text-align: center;
+        background-color: #DEEBFF;
+        border-radius: 10px;
+        border: 2px solid #0065FC;
     }
 
 .FILTRE_BOUTON
     {
         display: flex;
         margin-left: 25px;
-        box-shadow: 2px 2px 0 #F2F2F2 inset ,  -2px -2px 0 #F2F2F2 inset;
+        box-shadow: 2px 2px 0 #DEEBFF inset ,  -2px -2px 0 #DEEBFF inset;
+        border: 2px solid #0065FC;
         border-radius: 25px;
+        background-color: white;
+
     }
+
+
 
 .FILTRE_BOUTON:hover
     {
@@ -219,20 +229,15 @@ h2
 #HEBERGEMENTS
     {
         padding: 0 3% 0 3%;
-        display:flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 20px;
     }
 
     #RESULTATS
         {
             background-color: #F2F2F2;
-            margin-right: 50px;
             padding: 3%;
             border-radius: 25px;
-            max-width: 58%;
-            min-width: 245px;
+            width: 94%;
+            margin-bottom: 50px;
         }
 
         #RESULTATS_TXT
@@ -306,6 +311,7 @@ h2
             background-color: #F2F2F2;
             padding: 3%;
             border-radius: 25px;
+            width: 94%;
         }
     #POP_TITRE
         {
@@ -337,7 +343,7 @@ h2
         {
             gap: 20px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-between;
         }
         .VIGNETTE_POP
@@ -355,7 +361,7 @@ h2
         .VIGNETTE_POP img
             {
                 width: 128px;
-                height: 133px;
+                height: 180px;
                 object-fit: cover;
                 border-radius: 25px 0 0 25px;
             }
