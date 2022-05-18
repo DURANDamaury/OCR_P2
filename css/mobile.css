@@ -1,6 +1,4 @@
-@media screen and (max-width: 767px)
-{
-    body
+body
     {
         font-family: 'Raleway', sans-serif;
         margin: 0;
@@ -12,19 +10,15 @@
 header
     {
         padding: 0 3% 0 3%; /*50px */
-    }
-
-nav
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        height: 100%;
         margin: 0;
-
     }
 
-nav img
+header img
     {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         height: 45px;
     }
 
@@ -39,7 +33,7 @@ nav img
 .CHOIX
     {
         padding-top: 0;
-        box-shadow: inset 0 2px transparent;
+        box-shadow: inset 0 -5px white;
         height: 100px;
         display: flex;
         flex-direction: column;
@@ -48,7 +42,7 @@ nav img
 
 .CHOIX :hover
     {
-        box-shadow: inset 0 -2px #0065FC;        
+        box-shadow: inset 0 -5px #0065FC;        
     }
 
 #MENU a
@@ -499,5 +493,3 @@ footer li
         list-style: none;
         line-height: 200%;
     }
-
-}
