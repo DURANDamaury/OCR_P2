@@ -21,7 +21,7 @@ header img
         height: 45px;
     }
 
-#MENU
+nav
     {
         display: flex;
         list-style: none;
@@ -44,7 +44,7 @@ header img
         box-shadow: inset 0 2px #0065FC;        
     }
 
-#MENU a
+nav a
     {
         /* display: block; */
         color: black;
@@ -53,7 +53,7 @@ header img
 
     }
 
-#MENU a:hover
+nav a:hover
     {
         box-shadow: inset 0 2px #0065FC;
         color: #0065FC;
@@ -167,7 +167,7 @@ h2
 
 .FILTRE_BOUTON:hover
     {
-        background-color: greenyellow;
+        background-color: #DEEBFF;
     }
 
 .FILTRE_IMG
@@ -267,6 +267,11 @@ h2
                     box-shadow: 4px 4px 15px rgb(175, 175, 175);
                 }
 
+            .VIGNETTE:hover
+                {
+                    border: 5px solid #DEEBFF;
+                }
+
             .VIGNETTE_TXT
                 {
                     margin-left: 10px;
@@ -356,6 +361,12 @@ h2
                 background-color: white;
                 box-shadow: 4px 4px 15px rgb(175, 175, 175);
             }
+
+        .VIGNETTE_POP:hover
+            {
+                border: 5px solid #DEEBFF;
+            }
+
         .VIGNETTE_POP img
             {
                 width: 128px;
