@@ -124,7 +124,10 @@ h2
         padding-right: 20px;
 
     }
-
+#RECHERCHE button
+    {
+        display: none;
+    }
 /* *** Filtres *** */
 #FILTRE
     {

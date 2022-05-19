@@ -218,7 +218,7 @@ h2
         padding: 0 3% 0 3%;
         display:flex;
         justify-content: space-between;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     #RESULTATS
@@ -228,7 +228,7 @@ h2
             padding: 3%;
             border-radius: 25px;
             max-width: 58%;
-            min-width: 245px;
+
         }
 
         #RESULTATS_TXT
@@ -251,8 +251,8 @@ h2
                     display: block;
                     text-decoration: none;
                     color: black;
-                    width: 236px;
-                    height: 190px;
+                    width: 30%;
+                    min-height: 190px;
                     background-color: white;
                     border: 5px solid white;
                     border-radius: 25px;
@@ -270,12 +270,13 @@ h2
                     margin-left: 10px;
                     margin-right: 10px;
                     line-height: 23px;
+                    overflow-wrap: break-word;
                 }
             
             .VIGNETTE_IMG img
                 {
                     
-                    width: 236px;
+                    width: 100%;
                     height: 114px;
                     object-fit: cover;
                     border-radius: 25px 25px 0 0;
@@ -307,6 +308,7 @@ h2
             background-color: #F2F2F2;
             padding: 3%;
             border-radius: 25px;
+
         }
     #POP_TITRE
         {
@@ -343,10 +345,11 @@ h2
         }
         .VIGNETTE_POP
             {
-                display: block;
+                
                 text-decoration: none;
                 color: black;
                 width: 333px;
+                height: 133px;
                 border: 5px solid white;
                 display: flex;
                 border-radius: 25px;
@@ -362,7 +365,7 @@ h2
         .VIGNETTE_POP img
             {
                 width: 128px;
-                height: 133px;
+                height: 100%;
                 object-fit: cover;
                 border-radius: 25px 0 0 25px;
             }
