@@ -320,6 +320,11 @@ form
                     font-size: 19px;
                     font-weight: 800;
                 }
+
+        #PLUS a:hover
+        {
+            color: #0065FC;
+        }   
     /* *** POPULARITÉ *** */
     #POPULARITE
         {

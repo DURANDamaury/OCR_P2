@@ -310,7 +310,11 @@ h2
                 {
                     font-size: 12px;
                 }
-                
+     
+        #PLUS a:hover
+            {
+                color: #0065FC;
+            }   
     /* *** POPULARITÉ *** */
     #POPULARITE
         {
@@ -351,13 +355,14 @@ h2
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+
         }
         .VIGNETTE_POP
             {
                 display: block;
                 text-decoration: none;
                 color: black;
-                width: 333px;
+                max-width: 333px;
                 border: 5px solid white;
                 display: flex;
                 border-radius: 25px;
@@ -372,8 +377,9 @@ h2
 
         .VIGNETTE_POP img
             {
-                width: 128px;
-                height: 180px;
+                max-width: 128px;
+                width: 100%;
+                height: 100%; /*180px;*/
                 object-fit: cover;
                 border-radius: 25px 0 0 25px;
             }

@@ -301,7 +301,12 @@ h2
                 {
                     font-size: 12px;
                 }
-                
+              
+    #PLUS a:hover
+        {
+            color: #0065FC;
+        }            
+            
     /* *** POPULARITÉ *** */
     #POPULARITE
         {
